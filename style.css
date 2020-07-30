@@ -1,0 +1,72 @@
+
+section
+{
+	background-color: grey;
+	border: 1px solid black;
+	float:left;
+	box-sizing:border-box;
+}
+dir
+{
+	position: relative;
+	box-sizing: border-box;
+	width:30%;
+	color:white;
+	font-style: italic;
+	font-weight: bold;
+	text-align:right;
+	background-color: red;
+	border:1px solid black;
+	left:70%;
+	margin-top: 0px;
+}
+#d2
+{
+	background-color: green
+}
+#d3
+{
+	background-color: blue
+}
+p
+{
+	padding:2%;
+}
+h1
+{
+	text-align: center;
+	color: blue;
+	font-size: 175%
+}
+#s1,#s2,#s3
+{
+	margin:0.667%;
+}
+@media (min-width: 992px)
+{
+#s1,#s2,#s3
+{
+	float:left;
+	width: 32%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+#s1,#s2
+{
+	float:left;
+	width:48.666%;
+}
+#s3
+{
+	width:98.666%;
+}
+}
+@media (max-width: 767px)
+{
+#s1,#s2,#s3
+{
+	width:98.666%;
+}
+}
+
